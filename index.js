@@ -69,7 +69,7 @@ function isGameFinished(username, points){
     document.getElementById("tutorial").style.display = 'block';
 
     onWriteToLeaderboard(username, points)
-    onReadFromLeaderboard();
+    setTimeout(function(){onReadFromLeaderboard()}, 1000);
 }
 
 function onUpdateOverlayPosition(){
