@@ -51,6 +51,13 @@ canvas {
     border-spacing: 20px;
 }
 
+#tutorial{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
 th, td {
     color: white;
     font-size: 2em;
