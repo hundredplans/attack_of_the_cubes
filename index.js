@@ -3,7 +3,7 @@ import BulletController from "./bullet_controller.js";
 import EnemyController from "./enemy_controller.js";
 import MainMenu from "./main_menu.js";
 
-const server_path = "https://cda5-178-73-37-217.ngrok-free.app";
+const server_path = "https://08e2-194-92-77-5.ngrok-free.app";
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 const ngrok_token = "2yHCJfuflnSgQ7g0xc4PV6ZeTBT_6TjpDHdKtHFJoiUW79HSd";
